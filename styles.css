@@ -1,7 +1,16 @@
 #chatContainer{
   height: 15em;
-  y-overflow: hidden;
   margin: 0 auto;
+  position: relative;
+}
+
+#chatList{
+  position: absolute;
+  bottom: 0;
+}
+
+li{
+  list-style: none;
 }
 
 #chatTextInput{
