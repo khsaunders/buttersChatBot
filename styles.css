@@ -1,19 +1,61 @@
+body{
+  width: 100%;
+  margin: auto;
+  font-family: 'Source Sans Pro';
+  font-size: 1em;
+  overflow: hidden;
+  background-color: #E7E7E7;
+}
+
 #chatContainer{
-  height: 15em;
+  width: 80%;
   margin: 0 auto;
   position: relative;
 }
 
 #chatList{
-  position: absolute;
-  bottom: 0;
+  width: 80%;
+  position: fixed;
+  bottom: 5%;
+
 }
 
 li{
   list-style: none;
 }
 
+.userResponse{
+  text-align: right;
+}
+
+.buttersResponse{
+  text-align: left;
+}
+
 #chatTextInput{
-  position: fixed;
-  margin-top: 10%;
+  margin: 0 auto;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  background-color: #6199C8;
+  padding: .8% 0.5%;
+}
+
+input{
+  font-family: 'Source Sans Pro';
+  font-size: .85em;
+  margin: 0 auto;
+  width: 75%;
+  border-radius: 3px;
+  box-shadow: none;
+  border: none;
+  padding: .45% .65%;
+}
+
+button{
+  border: none;
+  background-color: #6199C8;
+  color: white;
+  font-size: 1em;
+  letter-spacing: 1.5px;
 }
