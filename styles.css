@@ -1,0 +1,10 @@
+#chatContainer{
+  height: 15em;
+  y-overflow: hidden;
+  margin: 0 auto;
+}
+
+#chatTextInput{
+  position: fixed;
+  margin-top: 10%;
+}
