@@ -1,7 +1,7 @@
 $('#submit').on('click', function userPicRequest(){
   var userInput = document.querySelector('input').value;
 
-  var picCheck = userInput.search('@pic');
+  var picCheck = userInput.search('send' && 'pic' || 'picure');
 
   if (picCheck > -1){
     var time = 500;
