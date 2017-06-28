@@ -1,9 +1,9 @@
 body{
   width: 100%;
-  margin: auto;
-  font-family: 'Source Sans Pro';
+  margin: 0 auto;
+  font-family: 'Quicksand';
   font-size: 1em;
-  overflow: hidden;
+  overflow: scroll;
   background-color: #E7E7E7;
   letter-spacing: 1.55px;
 }
@@ -46,9 +46,10 @@ li{
   position: absolute;
   bottom: 0;
   width: 100%;
-  background-color: #6199C8;
+  background-color: #3E719C;
   padding: .8% 0.5%;
   display: flex;
+  overflow: hidden;
 }
 
 #inputContainer{
@@ -59,7 +60,7 @@ li{
 }
 
 input{
-  font-family: 'Source Sans Pro';
+  font-family: 'Quicksand';
   font-size: .85em;
   width: 75%;
   border-radius: 3px;
@@ -73,11 +74,12 @@ input{
 
 button{
   border: none;
-  background-color: #6199C8;
+  background-color: #3E719C;
   color: white;
   font-size: 1em;
   letter-spacing: 1.5px;
   outline: none;
+  font-family: 'Quicksand';
 }
 
 .buttersResponsePic{
