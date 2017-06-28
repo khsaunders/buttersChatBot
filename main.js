@@ -1,13 +1,13 @@
-clicks = 1
+counter = 1
 
 $('#submit').on('click', function clearField(){
 $('input').val(' ');
-clicks ++
+counter ++
 var userInput = document.querySelector('input').value;
 
 var langCheck = userInput.search('pic' || 'picture' || 'random' || 'hello' || 'hi' || 'hey');
 
-if(langCheck == -1){
+if(langCheck > -1){
   console.log("lil B doesn't understand");
 }
 });

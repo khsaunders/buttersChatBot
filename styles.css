@@ -5,6 +5,7 @@ body{
   font-size: 1em;
   overflow: hidden;
   background-color: #E7E7E7;
+  letter-spacing: 1.55px;
 }
 
 #chatContainer{
@@ -23,15 +24,20 @@ body{
 
 li{
   list-style: none;
-  padding: 1%;
+  padding: 1% 2%;
+  margin: 2%;
+  border-radius: 12px;
 }
 
 .userResponse{
   text-align: right;
+  background-color: #6199C8;
+  color: white;
 }
 
 .buttersResponse{
   text-align: left;
+  background-color: #C2C4C9;
 }
 
 #chatTextInput{
