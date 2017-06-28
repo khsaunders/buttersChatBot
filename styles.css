@@ -77,3 +77,8 @@ button{
   letter-spacing: 1.5px;
   outline: none;
 }
+
+.buttersResponsePic{
+  width: 300px;
+  height: 300px;
+}

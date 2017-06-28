@@ -13,6 +13,15 @@ $('#submit').on('click', function userPicRequest(){
         buttersPicLi.append(buttersPicWords);
         chatList.append(buttersPicLi);
         buttersPicLi.classList.add('buttersResponse');
+
+        buttersPics = ['drButterscotch.jpg', 'IMG_0200.jpg', 'IMG_4272.jpg', 'IMG_4697.jpg', 'IMG_5430.jpg', 'IMG_5755.jpg'];
+        var pictureName = buttersPics[Math.floor(Math.random()*buttersPics.length)];
+        var picAppend = document.createElement('img');
+          picAppend.setAttribute("src", "images/" + pictureName);
+
+        // picAppend.append(picture);
+        chatList.append(picAppend);
+        picAppend.classList.add('buttersResponsePic');
     }, time);
   };
 });
