@@ -18,7 +18,7 @@ $('#submit').on('click', function userGreeting(){
   if (clicks == 1){
       var time = 500;
       setTimeout(function buttersGreeting(){
-      var buttersSaysHi = "Hi! I'm Butters, a cat with access to the internet. You can call me lil B if you want. \n I can send you a picture, I can tell you random facts about me, and I can tell you the weather";
+      var buttersSaysHi = "Hi! I'm Butters, a cat with access to the internet. You can call me lil B if you want. \n I can send you a picture, I can tell you random facts about me, and, soon, I'll be able to tell you the weather";
       var buttersLi = document.createElement('LI');
       var buttersChatList = document.querySelector('#chatList');
       buttersLi.append(buttersSaysHi);
