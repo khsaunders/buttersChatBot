@@ -9,7 +9,7 @@ $('#submit').on('click', function userPicRequest(){
         var buttersLines = ['Oh you want a picture? Okay, let me get my good side', 'Mom says I am handsome', 'You should follow my instagram: butters.chillin', 'Ready for my closeup'];
         var buttersPicWords = buttersLines[Math.floor(Math.random()*buttersLines.length)];
         var buttersPicLi = document.createElement('LI');
-        var chatList = document.getElementById('chatList');
+        var chatList = document.querySelector('#chatList');
 
         buttersPicLi.append(buttersPicWords);
         chatList.append(buttersPicLi);

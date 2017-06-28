@@ -12,7 +12,7 @@ $('#submit').on('click', function userRandom(){
 
       var fact = buttersFacts[Math.floor(Math.random()*buttersFacts.length)];
       var buttersFactLi = document.createElement('LI');
-      var chatList = document.getElementById('chatList');
+      var chatList = document.querySelector('#chatList');
 
       buttersFactLi.append(fact);
       chatList.append(buttersFactLi);

@@ -29,6 +29,7 @@ li{
   border-radius: 12px;
 }
 
+
 .userResponse{
   text-align: right;
   background-color: #6199C8;
@@ -81,5 +82,5 @@ button{
 .buttersResponsePic{
   width: auto;
   height: 300px;
-  align-items: center;
+  border-radius: 12px;
 }
