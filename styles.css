@@ -79,6 +79,7 @@ button{
 }
 
 .buttersResponsePic{
-  width: 300px;
+  width: auto;
   height: 300px;
+  align-items: center;
 }
