@@ -11,9 +11,11 @@ $('#submit').on('click', function userGreeting(){
   chatList.append(userLi);
   userLi.classList.add('userResponse');
 
+  var greetCheck = userInput.search('hey' || 'hi' || 'hello' || 'bonjour' || 'hola' || "what's up" || 'hi!');
+
 
 //BUTTERS GREETING
-  if (clicks == 1){
+  if (greetCheck > -1 || clicks >= 1){
       var time = 500;
       setTimeout(function buttersGreeting(){
       var buttersSaysHi = "Hi! Are you my mom? I don't like anyone who isn't my mom";

@@ -16,12 +16,14 @@ body{
 #chatList{
   width: 80%;
   position: fixed;
-  bottom: 5%;
+  bottom: 15%;
+  padding: 0;
 
 }
 
 li{
   list-style: none;
+  padding: 1%;
 }
 
 .userResponse{
@@ -39,17 +41,26 @@ li{
   width: 100%;
   background-color: #6199C8;
   padding: .8% 0.5%;
+  display: flex;
+}
+
+#inputContainer{
+  align-content: center;
+  width: 90%;
+  display: flex;
 }
 
 input{
   font-family: 'Source Sans Pro';
   font-size: .85em;
-  margin: 0 auto;
   width: 75%;
   border-radius: 3px;
   box-shadow: none;
   border: none;
   padding: .45% .65%;
+  align-content: center;
+  margin: 0 auto;
+  outline: none;
 }
 
 button{
@@ -58,4 +69,5 @@ button{
   color: white;
   font-size: 1em;
   letter-spacing: 1.5px;
+  outline: none;
 }
