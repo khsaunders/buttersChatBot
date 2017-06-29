@@ -1,3 +1,101 @@
+@media screen and (min-width: 320px){
+
+  body{
+    width: 100%;
+    margin: 0 auto;
+    font-family: 'Quicksand';
+    overflow: scroll;
+    background-color: #E7E7E7;
+    letter-spacing: 1.55px;
+  }
+
+  #chatContainer{
+    width: 80%;
+    margin: 0 auto;
+    position: relative;
+    overflow-y: auto !important;
+  }
+
+  #chatList{
+    width: 80%;
+    position: fixed;
+    bottom: 15%;
+    padding: 0;
+    font-size: 1.25em;
+
+  }
+
+  li{
+    list-style: none;
+    padding: 1% 2%;
+    margin: 2%;
+    border-radius: 12px;
+  }
+
+
+  .userResponse{
+    text-align: right;
+    background-color: #6199C8;
+    color: white;
+    font-size: 1.25em;
+  }
+
+  .buttersResponse{
+    text-align: left;
+    background-color: #C2C4C9;
+  }
+
+  #chatTextInput{
+    margin: 0 auto;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    background-color: #3E719C;
+    padding: .8% 0.5%;
+    display: flex;
+    overflow: hidden;
+  }
+
+  #inputContainer{
+    align-content: center;
+    width: 90%;
+    display: flex;
+    padding: 2.5% 0;
+  }
+
+  input{
+    font-family: 'Quicksand';
+    font-size: .85em;
+    width: 65%;
+    font-size: 1.5em;
+    border-radius: 3px;
+    box-shadow: none;
+    border: none;
+    padding: .15%;
+    align-content: center;
+    justify-content: center;
+    margin: 0 auto;
+    outline: none;
+  }
+
+  button{
+    border: none;
+    background-color: #3E719C;
+    color: white;
+    letter-spacing: 1.5px;
+    outline: none;
+    font-family: 'Quicksand';
+    font-size: 2em;
+  }
+
+  .buttersResponsePic{
+    width: auto;
+    height: 10em;
+    border-radius: 12px;
+  }
+}
+@media screen and (min-width: 481px){
+
 body{
   width: 100%;
   margin: 0 auto;
@@ -6,6 +104,7 @@ body{
   overflow: scroll;
   background-color: #E7E7E7;
   letter-spacing: 1.55px;
+  background-color: red;
 }
 
 #chatContainer{
@@ -86,4 +185,5 @@ button{
   width: auto;
   height: 10em;
   border-radius: 12px;
+}
 }
