@@ -57,10 +57,10 @@
   }
 
   #inputContainer{
-    align-content: center;
+    justify-content: center;
     width: 90%;
-    display: flex;
     padding: 2.5% 0;
+    margin: 0 auto;
   }
 
   input{
@@ -71,8 +71,6 @@
     border-radius: 2px;
     box-shadow: none;
     border: none;
-    align-content: center;
-    justify-content: center;
     margin: 0 auto;
     outline: none;
   }
