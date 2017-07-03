@@ -11,7 +11,7 @@ $('#submit').on('click', function userGreeting(){
   chatList.append(userLi);
   userLi.classList.add('userResponse');
 
-  var greetCheck = userInput.includes('hey' || 'hi' || 'hello' || "what's up");
+  var greetCheck = userInput.includes('hey' || 'hi' || 'hello' || "what's up" || "Hey" || "Hi" || "Hello" ||);
 
 
 //BUTTERS GREETING

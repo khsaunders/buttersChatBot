@@ -3,7 +3,7 @@
 $('#submit').on('click', function userRandom(){
   var userInput = document.querySelector('input').value;
 
-  var randomCheck = userInput.search('random' || 'tell me something about you');
+  var randomCheck = userInput.search('random' || 'tell me something about you' || 'Random');
 
   if (randomCheck > -1){
     time = 500
