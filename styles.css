@@ -21,7 +21,7 @@
     position: fixed;
     bottom: 15%;
     padding: 0;
-    font-size: 1.25em;
+    font-size: 1em;
 
   }
 
@@ -67,11 +67,10 @@
     font-family: 'Quicksand';
     font-size: .85em;
     width: 65%;
-    font-size: 1.5em;
-    border-radius: 3px;
+    font-size: 1.15em;
+    border-radius: 2px;
     box-shadow: none;
     border: none;
-    padding: .15%;
     align-content: center;
     justify-content: center;
     margin: 0 auto;
@@ -82,10 +81,10 @@
     border: none;
     background-color: #3E719C;
     color: white;
-    letter-spacing: 1.5px;
+    letter-spacing: 3px;
     outline: none;
     font-family: 'Quicksand';
-    font-size: 2em;
+    font-size: 1.55em;
   }
 
   .buttersResponsePic{
@@ -94,7 +93,7 @@
     border-radius: 12px;
   }
 }
-@media screen and (min-width: 481px){
+@media screen and (min-width: 500px){
 
 body{
   width: 100%;
